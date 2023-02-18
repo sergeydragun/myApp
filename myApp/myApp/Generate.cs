@@ -13,7 +13,7 @@ namespace myApp
             double percent = 0;
             string result = "INSERT INTO [Table_Pesons] ([SurName], [Name], [Patronymic], [DateBirthday], [Sex]) VALUES ";
             Console.WriteLine("Строка создается");
-            for (int i = 0; i < 1000; i++)
+            for (int i = 0; i < 1000000; i++)
             {
                 
                 percent = (i * 100) / 1000000;
